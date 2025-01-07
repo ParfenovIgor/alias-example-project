@@ -27,6 +27,10 @@ export PATH="<path to repository>/alias-c/build:$PATH"
 export ALTLIB="<path to repository>/alias-c/build/altlib_ext"
 ```
 
+## Get `calias` using Nix
+
+See [these instructions](https://github.com/deemp/alias-c#get-calias-using-nix).
+
 ## You Can Build
 
 Clone this repository and build the project:
@@ -84,6 +88,10 @@ Preferably add qalias to your *PATH* environmental variable. If you use `bash`, 
 export PATH="<path to repository>/qalias:$PATH"
 ```
 
+## Get `qalias` using Nix
+
+See [these instructions](https://github.com/deemp/qalias/#get-qalias-using-nix).
+
 ## Run QAlias and Language Server
 
 Open two shells with current working directory in this repository.
@@ -98,4 +106,27 @@ In another shell start the IDE on the background:
 
 ```
 qalias &
+```
+
+## Run QAlias and Language Server using Nix
+
+You needn't get `calias` and `qalias` as described in previous sections.
+
+Required dependencies:
+
+* [Nix](https://nixos.org)
+  * Use [this](https://github.com/DeterminateSystems/nix-installer) or [this](https://nixos.org/download/) way to install Nix
+
+Open two shells with current working directory in this repository.
+
+In one shell start the language server:
+
+```
+nix develop -c calias -ls
+```
+
+In another shell start the IDE on the background:
+
+```
+nix develop -c qalias &
 ```
