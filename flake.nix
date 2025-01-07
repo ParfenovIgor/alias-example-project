@@ -2,8 +2,8 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    calias.url = "github:deemp/alias-c";
-    qalias.url = "github:deemp/qalias";
+    calias.url = "github:ParfenovIgor/alias-c";
+    qalias.url = "github:ParfenovIgor/qalias";
   };
 
   outputs =

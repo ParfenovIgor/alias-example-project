@@ -6,15 +6,15 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1736198421,
-        "narHash": "sha256-2uZNV9gmUOAOUe5Wn65R9MtSqKrg8kZT2u4rl5Nm4Ug=",
-        "owner": "deemp",
+        "lastModified": 1736237980,
+        "narHash": "sha256-V4QbmV33ecR0LIDYp2kX53f4jI0GpBVRun5ls+Xrpmw=",
+        "owner": "ParfenovIgor",
         "repo": "alias-c",
-        "rev": "4dd7dbda138dba8c143dbee5f5948cb339de8654",
+        "rev": "8fc707e47864bb6c590ecbd594e8d331720661e1",
         "type": "github"
       },
       "original": {
-        "owner": "deemp",
+        "owner": "ParfenovIgor",
         "repo": "alias-c",
         "type": "github"
       }
@@ -127,15 +127,15 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1736194384,
-        "narHash": "sha256-2WATIg9q40NFvjLQLM7WjI0O47fAuBPGld346db6bWw=",
-        "owner": "deemp",
+        "lastModified": 1736239379,
+        "narHash": "sha256-im7fa52RoZuc5bCOGKI92/N6FK7uwEIcjzmENqh8UCE=",
+        "owner": "ParfenovIgor",
         "repo": "qalias",
-        "rev": "50953b6e77ad9d714f758c1d68a331cd7d726185",
+        "rev": "2d307239e4179a0df31da92b61dfdf7e8d6d86fc",
         "type": "github"
       },
       "original": {
-        "owner": "deemp",
+        "owner": "ParfenovIgor",
         "repo": "qalias",
         "type": "github"
       }
