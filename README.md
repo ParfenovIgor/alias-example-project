@@ -2,6 +2,8 @@
 
 This repository will help you quickly get started working with Alias programming language.
 
+For Nix ~~flexers~~ flakesers - an [instruction](#run-qalias-and-language-server-using-nix) for Nix.
+
 ## Build Alias Compiler
 
 Follow the [link](https://github.com/ParfenovIgor/alias-c) and do *Building from Source* section.
@@ -26,10 +28,6 @@ If you use `bash`, you can add the following commands in file `~/.bashrc`. In th
 export PATH="<path to repository>/alias-c/build:$PATH"
 export ALTLIB="<path to repository>/alias-c/build/altlib_ext"
 ```
-
-## Get `calias` using Nix
-
-See [these instructions](https://github.com/deemp/alias-c#get-calias-using-nix).
 
 ## You Can Build
 
@@ -88,10 +86,6 @@ Preferably add qalias to your *PATH* environmental variable. If you use `bash`, 
 export PATH="<path to repository>/qalias:$PATH"
 ```
 
-## Get `qalias` using Nix
-
-See [these instructions](https://github.com/deemp/qalias/#get-qalias-using-nix).
-
 ## Run QAlias and Language Server
 
 Open two shells with current working directory in this repository.
@@ -122,11 +116,13 @@ Open two shells with current working directory in this repository.
 In one shell start the language server:
 
 ```
-nix develop -c calias -ls
+nix develop
+calias -ls
 ```
 
 In another shell start the IDE on the background:
 
 ```
-nix develop -c qalias &
+nix develop
+qalias &
 ```
